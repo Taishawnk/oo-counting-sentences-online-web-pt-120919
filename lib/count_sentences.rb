@@ -16,6 +16,6 @@ self.end_with?("!")
 
   def count_sentences
 self.squeeze("!.").split(/[.!?]/).count
-#
+# everything in the /[ ] / is  being read by ruby as individual arguments   
   end
 end
